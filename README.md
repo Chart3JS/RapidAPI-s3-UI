@@ -1,7 +1,7 @@
-# RapidAPI
+# RapidAPI Storage UI
 
-> A Vuetify project running in Cordova
-
+> A Vuetify RapidAPI Storage UI project for running in Web and Cordova
+> To run it with backend install RapidAPI Storage backend as described in https://github.com/Chart3JS/Rapid-s3/blob/master/README.md
 ## Build Setup
 
 ``` bash
