@@ -2,6 +2,9 @@
 
 > A Vuetify RapidAPI Storage UI project for running in Web and Cordova
 > To run it with backend install RapidAPI Storage backend as described in https://github.com/Chart3JS/Rapid-s3/blob/master/README.md
+> Suppose you installed this project as a sibling of the RapidAPI UI project in the same directory. So run 
+``` run-on-express.sh ```
+> in order to build a web app in the ``` public ``` forlder of Rapid-s3 backend project
 ## Build Setup
 
 ``` bash
@@ -23,7 +26,8 @@ npm run unit
 # run all tests
 npm test
 
-# build for production and cordova build.
+# build for production and cordova build. You need to configure host in the 
+<PROJECT_ROOT>/src/services/Api.js to connect to deployed on cloud service or to allow routing to localhost:3001 on your device
 npm run cordova-build
 
 # build for production and serve the app through the browser - no hot reload.
